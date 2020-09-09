@@ -39,10 +39,7 @@ export default class App extends React.Component {
       return (
         <>
           <h1> This is the App Component </h1>{" "}
-          <div>
-            <Message />
-          </div>
-          {/* <Switch>
+          <Switch>
             <Route exact path="/" component={HomePage}>
               {" "}
             </Route>{" "}
@@ -91,8 +88,8 @@ export default class App extends React.Component {
               <UserProvider value="Caleb">
                 <ComponentC />
               </UserProvider>
-            </div> */}
-          {/* </main> */}
+            </div>
+          </main>
         </>
       );
     }

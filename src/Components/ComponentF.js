@@ -10,7 +10,8 @@ export default class ComponentF extends Component {
           {(username) => {
             return (
               <div>
-                Username: {username} // The first Caleb came from componentC
+                Username: {username} Note: The first Caleb came from componentC
+                and not through ComponentF
               </div>
             );
           }}
