@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, {
+    Component
+} from 'react'
 
 export default class eHandlerPractice extends Component {
     state = {
@@ -13,14 +15,17 @@ export default class eHandlerPractice extends Component {
 
 
     render() {
-        return (
-            <div>
-                <h1>-------------------------------------------------------</h1>
-                <h3>{this.state.phrase}</h3>
-                <button onClick={() => this.clickHandler()}>Click to see who says this?</button>
-            </div>
+        return ( <
+            div >
+            <
+            h1 > -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - < /h1> <
+            h3 > {
+                this.state.phrase
+            } < /h3> <
+            button onClick = {
+                () => this.clickHandler()
+            } > Click to see who says this ? < /button> < /
+            div >
         )
     }
 }
-
-

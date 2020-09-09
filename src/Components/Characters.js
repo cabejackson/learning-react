@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React, {
+    Component
+} from 'react';
 
 // export default class Characters extends Component {
-   
+
 //     render() {
 //         return (
 //             <div>
@@ -9,8 +11,8 @@ import React, { Component } from 'react';
 //             </div>
 //         )
 
-    
-        
+
+
 //     }
 // }
 
@@ -18,18 +20,28 @@ import React, { Component } from 'react';
 export default class Characters extends Component {
 
     render() {
-        const { name, job } = this.props
-        return (
-            <div>
-                <h1>{name} the {job}</h1>
-                {this.props.children}
-                <button onClick={this.handleClick}>YOOOO!!! I'm a button-kinda!</button>
-            </div>
-        )
+        const {
+            name,
+            job
+        } = this.props
+        return ( <
+                div >
+                <
+                h1 > {
+                    name
+                }
+                the {
+                    job
+                } < /h1> {
+                this.props.children
+            } <
+            button onClick = {
+                this.handleClick
+            } > YOOOO!!!I 'm a button-kinda!</button> < /
+            div >
+    )
 
-    
-        
-    }
+
+
 }
-
-
+}

@@ -7,8 +7,8 @@ export default class HomePage extends Component {
         return ( <
             div >
             <
-            h1 > THIS IS THE HOME PAGE < /h1> <
-            /div>
+            h1 > THIS IS THE HOME PAGE < /h1> < /
+            div >
         )
     }
 }
